@@ -1,8 +1,8 @@
 <?php
 namespace app\index\controller;
 use think\Controller;
-use think\Session;
-class car extends Controller
+use think\facade\Session;
+class car extends Common
 {    
     public function index() {            //购物车
         return $this->fetch('car');

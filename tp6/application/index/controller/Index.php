@@ -1,7 +1,7 @@
 <?php
 namespace app\index\controller;
 use think\Controller;
-use think\Session;
+use think\facade\Session;
 class Index extends Controller
 {    //导航栏开始
     public function index(){                 //主页

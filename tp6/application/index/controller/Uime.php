@@ -1,8 +1,8 @@
 <?php
 namespace app\index\controller;
 use think\Controller;
-use think\Session;
-class Uime extends Controller
+use think\facade\Session;
+class Uime extends Common
 {    
     public function index(){            //我的中心
         return $this->fetch('uime');

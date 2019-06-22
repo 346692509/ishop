@@ -1,7 +1,7 @@
 <?php
 namespace app\index\controller;
 use think\Controller;
-use think\Session;
+use think\facade\Session;
 class Sort extends Controller
 {  
     public function index() {          //分类  
